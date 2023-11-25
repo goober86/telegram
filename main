@@ -1,0 +1,8 @@
+ for (var i = 0; i < accounts.length; i++) {
+    var account = accounts [i];
+    if (account.username === username &&
+        account.password === password)
+    {
+      return true;
+    }
+  }
